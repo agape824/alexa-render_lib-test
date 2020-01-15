@@ -1,0 +1,38 @@
+.card-navi-container {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 78px;
+  display: flex;
+  /* margin-top: -72px !important; */
+  position: relative;
+  margin: auto;
+  z-index: 1;
+  width: 500px;
+  top: 0;  
+}
+.card-navi-container .dotContainer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+}
+.card-navi-container .dotContainer .dot {
+	width: 13px;
+	height: 13px;
+	border: 4px solid transparent;
+	border-radius: 50%;
+	background-color: #a1a1a1;
+	margin-left: 6px;
+	margin-right: 6px;
+}
+.card-navi-container .dotContainer .dot.sel {
+	width: 19px;
+	height: 19px;
+	border-radius: 50%;
+	background-color: #ff8f1c
+}
+.display-card-list-inner {
+  display: flex;
+  flex-direction: row;
+}
